@@ -1,0 +1,30 @@
+SOLID DESIGN PRINCIPLES:
+
+Single Responsibility Principle:
+
+    The Single Responsibility Principle requires that a class should have only one job.
+    So if a class has more than one responsibility, it becomes coupled.
+    A change to one responsibility results to modification of the other responsibility
+
+Open-Closed Principle:
+
+    Software entities(Classes, modules, functions) should be open for extension, not modification.
+
+Liskov Substitution Principle:
+
+    The main idea behind Liskov Subtitution Principle is that,
+    for any class, a client should be able to use any of its subtypes indistinguishably,
+    without even noticing, and therefore without compromising the expected behavior at runtime.
+    This means that clients are completely isolated and unaware of changes in the class hierarchy
+
+Interface Segregation Principle:
+
+    Make fine grained interfaces that are client specific Clients should not be forced to depend upon interfaces that they do not use.
+    This principle deals with the disadvantages of implementing big interfaces
+
+Dependency Inversion Principle:
+
+    Dependency should be on abstractions not concretions.
+    High-level modules should not depend upon low-level modules.
+    Both low and high level classes should depend on the same abstractions.
+    Abstractions should not depend on details. Details should depend upon abstractions
